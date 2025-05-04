@@ -42,5 +42,7 @@
     &__image{
         grid-area: image;
         width: 100%;
+        margin: 1.5rem 0;
+        box-shadow: #00000059 0 0 8px 3px;
     }
 }
