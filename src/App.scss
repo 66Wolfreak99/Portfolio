@@ -45,3 +45,30 @@
 .container{
   max-width: 40rem;
 }
+
+.github{
+  border-radius: 20px;
+  background-color: #353535;
+  height: 2.5rem;
+  width: 11rem;
+  padding: 0.25rem;
+
+  margin: 0 auto;
+  border: 2px solid #262626;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset #555555 0 2px, inset #161616 0 -2px, inset #95959514 0 9px 9px;
+  color: aliceblue;
+  &:hover{
+    background-color: #3d3d3d;
+    color: rgb(255, 255, 255);
+  }
+  &:active{
+    background-color: #252525;
+    color: rgb(133, 137, 141);
+  }
+  img{
+    height: 2rem;
+  }
+}

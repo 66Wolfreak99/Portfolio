@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -19,7 +22,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #4d55f1;
+  color: #535bf2;
 }
 
 body {
